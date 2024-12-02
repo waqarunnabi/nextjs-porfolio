@@ -1,6 +1,9 @@
 import React from 'react';
 
+
+
 export default function ModernPortfolio() {
+
   const projects = [
     {
       title: 'Intelligent Project Management',
@@ -52,7 +55,6 @@ export default function ModernPortfolio() {
       technologies: ['Git', 'Figma', 'Vercel', 'Postman']
     }
   ];
-
   return (
     <div className="bg-white text-gray-900 min-h-screen">
       {/* Navigation */}
