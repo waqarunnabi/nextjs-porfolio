@@ -57,10 +57,8 @@ export default function ModernPortfolio() {
     <div className="bg-white text-gray-900 min-h-screen">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md shadow-sm">
-        <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="text-2xl font-bold">
-            Alex Morgan
-          </div>
+        <div className="container mx-auto px-4 py-4 flex justify-center items-center">
+          
           <div className="space-x-6">
             <a href="#about" className="hover:text-blue-600 transition">About</a>
             <a href="#projects" className="hover:text-blue-600 transition">Projects</a>
@@ -71,11 +69,15 @@ export default function ModernPortfolio() {
       </nav>
 
       {/* Hero Section */}
-      <header className="container mx-auto px-4 pt-24 pb-16 text-center">
+    
+      <header id="about"className="container mx-auto px-4 pt-24 pb-16 text-center">
         <div className="max-w-3xl mx-auto">
-          <h1 className="text-5xl font-bold mb-4 text-gray-900">
-            Full-Stack Developer & Innovative Technologist
+          <h1 className="text-5xl font-bold mb-4 text-gray-900 ">
+            Waqar Un Nabi <br /> <br />
           </h1>
+          <h2 className="text-4xl font-bold mb-4 text-gray-900 ">
+            Full-Stack Developer & Innovative Technologist
+          </h2>
           <p className="text-xl text-gray-600 mb-8">
             Transforming complex challenges into elegant digital solutions through cutting-edge technology and creative problem-solving.
           </p>
@@ -207,7 +209,7 @@ export default function ModernPortfolio() {
           Feel free to reach out, and I'll get back to you as soon as possible.
         </p>
         <a 
-          href="mailto:alex.morgan@example.com" 
+          href="syedwaqarunnabi@gmail.com" 
           className="bg-blue-600 text-white px-8 py-3 rounded-full text-lg hover:bg-blue-700 transition-colors inline-flex items-center justify-center"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
@@ -221,7 +223,7 @@ export default function ModernPortfolio() {
       {/* Footer */}
       <footer className="bg-gray-100 py-6 text-center">
         <p className="text-gray-600">
-          © 2024 Alex Morgan. All rights reserved.
+          © 2025 Waqar Un Nabi. All rights reserved.
         </p>
       </footer>
     </div>
